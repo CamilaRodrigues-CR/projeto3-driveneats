@@ -1,0 +1,127 @@
+body {
+    background-color: beige;
+    width: 410px;
+}
+.cabecalho{
+    background-color: #CF2B2B;
+    height: 92px;
+    width: 418px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+}
+h1{
+    color: #FFFFFF;
+    height: 44px;
+    font-size: 44px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.cabecalho p{
+    color: #FFFFFF;
+    height: 17px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+.primeiroh2{
+    margin-top: 110px;
+}
+
+h2{ 
+    width: 415px;
+    height: 25px;
+    font-size: 26px;
+    font-weight: 400;
+    color: #333333;
+    
+}
+
+.prato{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll
+}
+.opcaoPrato{
+    background-color: #ffffff;
+    width: 172px;
+    height: 216px;
+    border-radius: 9px;
+    margin-left: 19px;
+}
+.opcaoPrato img {
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+}
+
+.bebida{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll
+}
+.opcaoBebida{
+    background-color: #ffffff;
+    width: 172px;
+    height: 216px;
+    border-radius: 9px;
+    margin-left: 19px;
+}
+.opcaoBebida img {
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+}
+.sobremesa{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 110px;
+    overflow-x: scroll
+}
+.opcaoSobremesa{
+    background-color: #ffffff;
+    width: 172px;
+    height: 216px;
+    border-radius: 9px;
+    margin-left: 19px;
+}
+.opcaoSobremesa img {
+    width: 144px;
+    height: 82px;
+    border-radius: 4px;
+}
+.botaoFinalizarPedido{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    height: 92px;
+    width: 418px;
+}
+.botaoFinalizarPedido button{
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    background-color: #CBCBCB;
+    border: #CBCBCB;
+}
+
+.pratoSelecionado{
+    border-color: #32B72F;
+    
+}
+
+@media (max-width: 415px){
+
+}
