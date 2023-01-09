@@ -44,25 +44,31 @@ h2{
     
 }
 
-.prato{
+.pratos{
     display: flex;
     justify-content: space-between;
     overflow-x: scroll
 }
-.opcaoPrato{
+.opcaoPrato {
     background-color: #ffffff;
     width: 172px;
     height: 216px;
     border-radius: 9px;
     margin-left: 19px;
+    margin-bottom: 10px;
 }
 .opcaoPrato img {
     width: 144px;
     height: 87px;
     border-radius: 4px;
 }
+.icone{
+    color: #32B72F;
+    right: 5px;
+    bottom: 5px;
+}
 
-.bebida{
+.bebidas{
     display: flex;
     justify-content: space-between;
     overflow-x: scroll
@@ -73,13 +79,15 @@ h2{
     height: 216px;
     border-radius: 9px;
     margin-left: 19px;
+    margin-bottom: 10px;
 }
 .opcaoBebida img {
     width: 144px;
     height: 87px;
     border-radius: 4px;
 }
-.sobremesa{
+
+.sobremesas{
     display: flex;
     justify-content: space-between;
     margin-bottom: 110px;
@@ -91,11 +99,17 @@ h2{
     height: 216px;
     border-radius: 9px;
     margin-left: 19px;
+    margin-bottom: 10px;
 }
 .opcaoSobremesa img {
     width: 144px;
     height: 82px;
     border-radius: 4px;
+}
+.opcaoSobremesa div{
+    color: #32B72F;
+    right: 5px;
+    bottom: 5px;
 }
 .botaoFinalizarPedido{
     position: fixed;
@@ -115,13 +129,45 @@ h2{
     border-radius: 50px;
     background-color: #CBCBCB;
     border: #CBCBCB;
-}
-
-.pratoSelecionado{
-    border-color: #32B72F;
     
 }
 
-@media (max-width: 415px){
+.OpcaoPratoSelecionado{
+    border-style: solid;
+    border-color: #32B72F;
 
+}
+.OpcaoBebidaSelecionada{
+    border-style: solid;
+    border-color: #32B72F;
+
+}
+.OpcaoSobremesaSelecionada{
+    border-style: solid;
+    border-color: #32B72F;
+
+}
+
+
+.FinalizarPedido-escondido{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    height: 92px;
+    width: 418px;
+    display: none;
+}
+
+.FinalizarPedido-escondido  button{
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    background-color: #32B72F;
+    border: #32B72F;
+    
 }
